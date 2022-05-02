@@ -9,7 +9,7 @@ namespace GitFlowConsoleApp
             var taskItemList = TaskListFakeFactory.GetTaskItems();
             foreach (var taskItem in taskItemList)
             {
-                Console.WriteLine(taskItem.Name);
+                Console.WriteLine($"TASK ID: {taskItem.Id} TASK NAME: {taskItem.Name} DESCRIPTION: {taskItem.Description}");
             }
         }
     }
