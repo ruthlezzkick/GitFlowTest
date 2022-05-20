@@ -43,7 +43,11 @@ namespace Domain.DAO.Task
                     Id = 4,
                     Name = "Task4",
                     Created = new DateTime(2020,5,20),
+<<<<<<< HEAD
                     Updated = new DateTime(2020,5,26),
+=======
+                    Updated = new DateTime(2020,5,24),
+>>>>>>> a380c85395a0063154fcc81a1ef557cb64e5d6e7
                     Status = 2,
                     Description = "Czwarty task",
                     Group = 2
