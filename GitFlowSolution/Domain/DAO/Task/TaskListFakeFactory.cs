@@ -38,6 +38,16 @@ namespace Domain.DAO.Task
                     Description = "Trzeci task",
                     Group = 2
                 },
+				new TaskItem
+                {
+                    Id = 4,
+                    Name = "Task4",
+                    Created = new DateTime(2020,4,22),
+                    Updated = new DateTime(2020,4,22),
+                    Status = 2,
+                    Description = "Czwarty task",
+                    Group = 2
+                },
             };
         }
     }
